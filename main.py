@@ -593,8 +593,8 @@ class Sender:
 
 
 def main(d):
-    username = ""
-    password = ""
+    username = "itzMevish01"
+    password = "roxzcool"
     session = InstagramAPI(username, password)
     if os.path.exists("session"):
         logging.info("Loading Instagram session....")
